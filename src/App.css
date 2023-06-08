@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*color and styling*/
+.root{
+    --PrimaryColor: hsl(199, 100%, 33%);
+    --SecondaryColor: hsl(187, 85%, 43% );
+    --gradientColor: linear-gradient(to right, hsl(187, 85%, 43%  ), hsl(199, 100%, 33%));
+    --whiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(201, 33%, 16%);
+    --textColor: hsl(240, 4%, 36%);
+    --whiteColorDeam: hsl(0, 0%, 93%);
+    --greyText: rgb(190, 190,190);
+    --inputColor: rgb(239, 239, 239);
+    --bodyColor: rgb(240,240, 246);
+    --cardBG: rgb(225,225, 235);
+    --greyBg: hsl(0, 0%, 96%);
+    --boxShadow: box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.5) 0px 4px 6px -2px;
+    -o-transition: .4s ease-in-out;
+
+
+}
+
+nody{
+    background: var(--whiteColor);
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.section{
+    padding: 4rem 0 2rem;
+
+}
+
+
+.container{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+}
+
+
+.icon{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.none{
+    display: none;
+}
+
+.flex{
+   display: flex;
+   align-items: center;
+}
+
+.grid{
+    display: grid;
+    align-items: center;
+}
+
+.btn{
+    padding: .6rem;
+    background:var(--gradientColor);
+    border-radius: 3rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn a{
+    color: var(--whiteColor);
+    font-weight: 500;
+}
+
+.btn:hover{
+    background: var(--SecondaryColor);
+}
+
+input{
+    font-size: 100%;
+}
+
+body{
+    background: var(--bodyColor);
+}

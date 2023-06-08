@@ -1,0 +1,64 @@
+@media screen and (max-width: 500px) {
+    #heroText {
+      font-size: 19px !important;
+      line-height: 80%;
+      margin-top: 10px;
+      margin-bottom: 5px;
+  
+    }
+  #mainContainer{
+    margin: 0 !important;
+  }
+  }
+  h5, .h5{
+    margin: 1rem auto;
+  }
+
+
+  .flightContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    padding: 20px 50px;
+    border-radius: 10px;
+    border-bottom: 2px dotted rgb(74, 74, 137);
+    background-color: rgb(224, 243, 236);
+    flex-wrap: wrap;
+  
+  }
+  .return, .departure, .leftAlign{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  #bookBtn{
+    border: 1px solid rgb(22, 177, 22);
+    background-color: rgb(22, 177, 22);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 100px;
+  
+  }
+  .priceAndBooking{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .outerContainer{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 50px;
+    column-gap: 2rem;
+    
+  }
+  .allFlightsConatainer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  
+  }
